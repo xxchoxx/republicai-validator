@@ -530,9 +530,9 @@ A: Ensure the node is synced (`catching_up: false`), then run the unjail command
 
 ## 🛡️ Support?
 
-```bash
+
 [Apply My Code to join Point program before claim faucet](https://points.republicai.io/faucet)
-```
+
 
 **Important Note**: This guide is based on RepublicAI version v0.2.0. Be sure to check the [release page](https://github.com/RepublicAI/networks/releases) for the latest information before installation.
 
