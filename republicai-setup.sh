@@ -10,7 +10,7 @@ echo -e "
 echo
 
 # RepublicAI Validator Setup Script (Systemd)
-# Version: v0.2.0
+# Version: v0.2.1
 # Compatible with: Ubuntu 22.04
 
 # Colors for output
@@ -23,7 +23,7 @@ NC='\033[0m' # No Color
 echo -e "${BLUE}==========================================${NC}"
 echo -e "${BLUE} RepublicAI Validator Setup (Systemd) ${NC}"
 echo -e "${BLUE}==========================================${NC}"
-echo -e "${YELLOW}Version: v0.2.0${NC}"
+echo -e "${YELLOW}Version: v0.2.1${NC}"
 echo -e "${YELLOW}Chain ID: raitestnet_77701-1${NC}"
 echo
 
@@ -79,8 +79,8 @@ GO_VER=$(go version | awk '{print $3}')
 echo "Go version: $GO_VER"
 
 # RepublicAI binary installation
-echo -e "${YELLOW}Downloading and installing RepublicAI binary v0.2.0...${NC}"
-BINARY_URL="https://github.com/RepublicAI/networks/releases/download/v0.2.0/republicd-linux-amd64 -O republicd"
+echo -e "${YELLOW}Downloading and installing RepublicAI binary v0.2.1...${NC}"
+BINARY_URL="https://github.com/RepublicAI/networks/releases/download/v0.2.1/republicd-linux-amd64 -O republicd"
 wget $BINARY_URL
 chmod +x republicd
 sudo mv republicd /usr/local/bin/
