@@ -1,8 +1,8 @@
 # RepublicAI Validator Setup Guide with Systemd
 
-**A comprehensive guide to installing the RepublicAI Validator using systemd with version (v0.2.0)**
+**A comprehensive guide to installing the RepublicAI Validator using systemd with version (v0.2.1)**
 
-> **Important Note**: This guide uses a systemd installation and for who new installed version 0.2.0 or latest cuz in my guide directory new is .republic not .republicd (version 1), if you already istalled better use old guide.
+> **Important Note**: This guide uses a systemd installation and for who new installed version 0.2.1 or latest cuz in my guide directory new is .republic not .republicd (version 1), if you already istalled better use old guide.
 
 ## 📋 Table of Contents
 - [System Requirements](#-system-requirements)
@@ -159,7 +159,7 @@ republicd tx staking create-validator $HOME/validator.json \
   --from validator \
   --chain-id raitestnet_77701-1 \
   --home $HOME/.republic \
-  --gas-prices 1000000000arai \
+  --gas-prices 250000000arai \
   --gas auto \
   --gas-adjustment 1.5 \
   -y
@@ -202,7 +202,7 @@ republicd tx slashing unjail \
   --from validator \
   --chain-id raitestnet_77701-1 \
   --home $HOME/.republic \
-  --gas-prices 1000000000arai \
+  --gas-prices 250000000arai \
   --gas auto \
   --gas-adjustment 1.5 \
   -y
@@ -219,7 +219,7 @@ republicd tx staking delegate \
   --home $HOME/.republic \
   --gas auto \
   --gas-adjustment 1.5 \
-  --gas-prices 1000000000arai \
+  --gas-prices 250000000arai \
   -y
 ```
 
@@ -232,7 +232,7 @@ republicd tx distribution withdraw-all-rewards \
   --home $HOME/.republic \
   --gas auto \
   --gas-adjustment 1.5 \
-  --gas-prices 1000000000arai \
+  --gas-prices 250000000arai \
   -y
 ```
 
@@ -247,7 +247,7 @@ republicd tx distribution withdraw-rewards \
   --home $HOME/.republic \
   --gas auto \
   --gas-adjustment 1.5 \
-  --gas-prices 1000000000arai \
+  --gas-prices 250000000arai \
   -y
 ```
 
@@ -361,7 +361,7 @@ republicd tx slashing unjail \
   --from validator \
   --chain-id raitestnet_77701-1 \
   --home $HOME/.republic \
-  --gas-prices 1000000000arai \
+  --gas-prices 250000000arai \
   --gas auto \
   --gas-adjustment 1.5 \
   -y
@@ -522,7 +522,7 @@ A: Ensure the node is synced (`catching_up: false`), then run the unjail command
 
 - [RepublicAI Networks Repository](https://github.com/RepublicAI/networks)
 - [RepublicAI Testnet Documentation](https://github.com/RepublicAI/networks/blob/main/testnet/README.md)
-- [RepublicAI v0.2.0 Release Notes](https://github.com/RepublicAI/networks/releases/tag/v0.2.0)
+- [RepublicAI v0.2.1 Release Notes](https://github.com/RepublicAI/networks/releases/tag/v0.2.1)
 - [RepublicAI Discord](https://discord.gg/republicai)
 - [RepublicAI Faucet](https://points.republicai.io/faucet)
 
@@ -534,7 +534,7 @@ A: Ensure the node is synced (`catching_up: false`), then run the unjail command
 ## [Apply My Code to join Point program before claim faucet](https://points.republicai.io/?ref=1B1344) and contact my if u need legal consult for free.
 
 
-**Important Note**: This guide is based on RepublicAI version v0.2.0. Be sure to check the [release page](https://github.com/RepublicAI/networks/releases) for the latest information before installation.
+**Important Note**: This guide is based on RepublicAI version v0.2.1. Be sure to check the [release page](https://github.com/RepublicAI/networks/releases) for the latest information before installation.
 
 > **Disclaimer**: Testnet tokens have no real economic value. This guide is for technical testing purposes only.
 
